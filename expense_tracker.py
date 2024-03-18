@@ -1,13 +1,13 @@
 def main():
     print("Hello World")
     
-    #TODO Get user input for expense
+    #TODO Get user input for expense by allowing the user to input to provide their own information
     get_user_expense()
     
-    #TODO Write their expense to a CSV file
+    #TODO Write their expense to a CSV file, to allow the user to export their files to other software
     save_expense_to_file()
     
-    #TODO Read file and summarise expense
+    #TODO Read the file and summarise expenses to give a detailed over for the user on thier spending habits
     read_expense_file()
     
 
